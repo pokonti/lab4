@@ -1,0 +1,11 @@
+<section class="listing">
+    <img class="listing-photo" [src]="productlistsearch.photo" alt="Exterior photo of {{productlistsearch.title}}">
+    <div class="listing-heading">
+        <h2> "{{ productlistsearch.title }}" - {{ productlistsearch.author }}</h2>
+        <p>Description: {{ productlistsearch.description }}</p>
+        <p>Price: {{ productlistsearch.price }} tg</p>
+        <a href="https://t.me/share/url?url={{ productlistsearch.linkKaspi }}&text=Look!">
+            <button class="button-1">Share</button>
+          </a>
+    </div>
+</section>

@@ -1,0 +1,10 @@
+<section>
+    <form>
+      <input type="text" placeholder="Filter by alphabet">
+      <button class="primary" type="button">Search</button>
+    </form>
+</section>
+
+<app-product-details *ngFor="let product of productlistList" [productlistsearch]="product"></app-product-details>
+
+
